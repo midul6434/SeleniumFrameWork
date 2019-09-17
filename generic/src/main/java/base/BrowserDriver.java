@@ -89,10 +89,10 @@ public class BrowserDriver {
     public static WebDriver driver = null;
 
 
-    public static final String browserstack_username = System.getProperty("bsUName");
-    public static final String browserstack_automateKey = System.getProperty("bsSecretKey");
-
-
+    public static final String browserstack_username = System.getProperty("USERNAME");
+    public static final String browserstack_automateKey = System.getProperty("AUTOMATE_KEY");
+   // public static final String browserstack_username="midultalukder1";
+   // public static final String browserstack_automateKey="rL844FKMzNyYDypow1tj";
 
 
     public static final String saucelabs_username = null;
@@ -189,7 +189,7 @@ public class BrowserDriver {
         // WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 
         if (envName.equalsIgnoreCase("Saucelabs")) {
-            driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey + "@ondemand.saucelabs.com:80/wd/hub"), caps);
+            driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey+ "@ondemand.saucelabs.com:80/wd/hub"), caps);
 
         } else if (envName.equalsIgnoreCase("Browserstack")) {
 
