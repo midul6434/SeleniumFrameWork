@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="midul_Ecommerce" />
+        <module name="generic" />
+        <module name="KenedyReality" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="generic" target="1.8" />
+      <module name="KenedyReality" target="1.8" />
+      <module name="midul_Ecommerce" target="1.8" />
+      <module name="SeleniumFrameWork" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

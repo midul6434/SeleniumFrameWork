@@ -1,0 +1,25 @@
+<suite name="AliBaba Automation Test" parallel="false" >
+    <!--parallel="false"-->
+
+    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="Mojave"/>
+    <parameter name="browserVersion" value="76.0"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="url" value="https://www.kennedylirealty.com/"/>
+
+
+    <test name = "Ecommerce Home">
+        <classes>
+
+            <class name="page_test.HomepageTest"/>
+
+
+
+        </classes>
+
+        <!--Hello-->
+    </test>
+
+</suite>

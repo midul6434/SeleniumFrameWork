@@ -11,6 +11,8 @@
     <modules>
         <module>generic</module>
         <module>midul_Ecommerce</module>
+        <module>KenedyReality</module>
+        <module>Housing</module>
     </modules>
 
     <dependencyManagement>

@@ -89,8 +89,10 @@ public class BrowserDriver {
     public static WebDriver driver = null;
 
 
-    public static final String browserstack_username = System.getProperty("bsUName");
-    public static final String browserstack_automateKey = System.getProperty("bsSecretKey");
+   // public static final String browserstack_username = System.getProperty("bsUName");
+   // public static final String browserstack_automateKey = System.getProperty("bsSecretKey");
+    public static final String browserstack_username ="mdzahid2" ;
+    public static final String browserstack_automateKey ="QBNghQ3xgqJSANgssuUz";
 
 
 
@@ -142,11 +144,11 @@ public class BrowserDriver {
             capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 
             if (os.equalsIgnoreCase("windows")) {
-                System.setProperty("webdriver.chrome.driver", "/Users/midul/IdeaProjects/SeleniumFrameWork/generic/src/Driver/Windows/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "/Users/mdahsanzahid/Documents/SeleniumFrameWork/generic/src/Driver/Windows/chromedriver.exe");
                 driver = new ChromeDriver(options);
 
             } else if (os.equalsIgnoreCase("mac")) {
-                System.setProperty("webdriver.chrome.driver", "/Users/midul/IdeaProjects/SeleniumFrameWork/generic/src/Driver/Mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "/Users/mdahsanzahid/Documents/SeleniumFrameWork/generic/src/Driver/Mac/chromedriver");
                 driver = new ChromeDriver(options);
 
             }
@@ -166,10 +168,10 @@ public class BrowserDriver {
 
 
             if (os.equalsIgnoreCase("windows")) {
-                System.setProperty("webdriver.gecko.driver", "/Users/midul/IdeaProjects/SeleniumFrameWork/generic/src/Driver/Windows/geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "/Users/mdahsanzahid/Documents/SeleniumFrameWork/generic/src/Driver/Windows/geckodriver.exe");
                 driver = new FirefoxDriver(options);
             } else if (os.equalsIgnoreCase("mac")) {
-                System.setProperty("webdriver.gecko.driver", "/Users/midul/IdeaProjects/SeleniumFrameWork/generic/src/Driver/Mac/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "/Users/mdahsanzahid/Documents/SeleniumFrameWork/generic/src/Driver/Mac/geckodriver");
                 driver = new FirefoxDriver(options);
             }
         }
@@ -189,13 +191,13 @@ public class BrowserDriver {
         // WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 
         if (envName.equalsIgnoreCase("Saucelabs")) {
-            driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey + "@ondemand.saucelabs.com:80/wd/hub"), caps);
+            driver = new RemoteWebDriver(new URL("http://" +envUsername + ":" +envAccessKey + "@ondemand.saucelabs.com:80/wd/hub"), caps);
 
         } else if (envName.equalsIgnoreCase("Browserstack")) {
 
             caps.setCapability("resolution", "1024x768");
             //  public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
-            driver = new RemoteWebDriver(new URL("https://" + envUsername + ":" + envAccessKey + "@hub-cloud.browserstack.com/wd/hub"), caps);
+            driver = new RemoteWebDriver(new URL("https://" + browserstack_username + ":" + browserstack_automateKey + "@hub-cloud.browserstack.com/wd/hub"), caps);
         }
         return driver;
     }
@@ -224,3 +226,5 @@ public class BrowserDriver {
 
 
 }
+//mdzahid2
+//QBNghQ3xgqJSANgssuUz
