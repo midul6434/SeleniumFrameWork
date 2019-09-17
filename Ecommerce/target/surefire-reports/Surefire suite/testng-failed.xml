@@ -15,6 +15,18 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- PageobjectTest.HomepageTest -->
+      <class name="PageobjectTest.SelectTest">
+        <methods>
+          <include name="closeOut"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="Run"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testing"/>
+          <include name="startExtent"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- PageobjectTest.SelectTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

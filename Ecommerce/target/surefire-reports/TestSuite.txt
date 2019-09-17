@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 1, Errors: 0, Skipped: 20, Time elapsed: 0.371 s <<< FAILURE! - in TestSuite
-setUp(PageObjectTest.NewArrivalTest)  Time elapsed: 0.309 s  <<< FAILURE!
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 0.356 s <<< FAILURE! - in TestSuite
+setUp(PageobjectTest.SelectTest)  Time elapsed: 0.307 s  <<< FAILURE!
 org.openqa.selenium.WebDriverException: 
 Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'

@@ -1,20 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+<testng-results skipped="2" failed="0" ignored="2" total="4" passed="0">
   <reporter-output>
     <line>
       <![CDATA[Extent Report Directory/Users/mdrahul/IdeaProjects/SeleniumFrameWork/Ecommerce/target/surefire-reports/html]]>
     </line>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="93" started-at="2019-09-17T06:44:30Z" finished-at="2019-09-17T06:44:30Z">
+  <suite name="Surefire suite" duration-ms="98" started-at="2019-09-17T19:17:52Z" finished-at="2019-09-17T19:17:52Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="93" started-at="2019-09-17T06:44:30Z" finished-at="2019-09-17T06:44:30Z">
+    <test name="Surefire test" duration-ms="98" started-at="2019-09-17T19:17:52Z" finished-at="2019-09-17T19:17:52Z">
       <class name="PageobjectTest.HomepageTest">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:PageobjectTest.HomepageTest@9f70c54]" name="extentSetup" is-config="true" duration-ms="96" started-at="2019-09-17T02:44:30Z" finished-at="2019-09-17T02:44:30Z">
+        <test-method status="SKIP" signature="contractTest()[pri:0, instance:PageobjectTest.HomepageTest@737996a0]" name="contractTest" duration-ms="0" started-at="2019-09-17T15:17:52Z" finished-at="2019-09-17T15:17:52Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+Driver info: driver.version: BrowserDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+Driver info: driver.version: BrowserDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at base.BrowserDriver.getLocalDriver(BrowserDriver.java:172)
+	at base.BrowserDriver.setUp(BrowserDriver.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contractTest -->
+        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PageobjectTest.HomepageTest@737996a0]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:52Z" finished-at="2019-09-17T15:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="Run()[pri:0, instance:PageobjectTest.HomepageTest@737996a0]" name="Run" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:52Z" finished-at="2019-09-17T15:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Run -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:PageobjectTest.HomepageTest@737996a0]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:52Z" finished-at="2019-09-17T15:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+      </class> <!-- PageobjectTest.HomepageTest -->
+      <class name="PageobjectTest.SelectTest">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:PageobjectTest.SelectTest@234bef66]" name="extentSetup" is-config="true" duration-ms="96" started-at="2019-09-17T15:17:52Z" finished-at="2019-09-17T15:17:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@646be2c3]]>
+                <![CDATA[org.testng.TestRunner@6b1274d2]]>
               </value>
             </param>
           </params>
@@ -24,7 +96,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="FAIL" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PageobjectTest.HomepageTest@9f70c54]" name="setUp" is-config="true" duration-ms="81" started-at="2019-09-17T02:44:30Z" finished-at="2019-09-17T02:44:30Z">
+        <test-method status="FAIL" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PageobjectTest.SelectTest@234bef66]" name="setUp" is-config="true" duration-ms="83" started-at="2019-09-17T15:17:52Z" finished-at="2019-09-17T15:17:52Z">
           <params>
             <param index="0">
               <value>
@@ -66,13 +138,13 @@
             <message>
               <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver
 	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
 	at java.util.Optional.orElseGet(Optional.java:267)
@@ -106,8 +178,8 @@ Driver info: driver.version: BrowserDriver
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
@@ -119,26 +191,26 @@ Driver info: driver.version: BrowserDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:PageobjectTest.HomepageTest@9f70c54]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:30Z" finished-at="2019-09-17T02:44:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="Run()[pri:0, instance:PageobjectTest.HomepageTest@9f70c54]" name="Run" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:30Z" finished-at="2019-09-17T02:44:30Z">
+        <test-method status="SKIP" signature="Run()[pri:0, instance:PageobjectTest.SelectTest@234bef66]" name="Run" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:52Z" finished-at="2019-09-17T15:17:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Run -->
-        <test-method status="SKIP" signature="contractTest()[pri:0, instance:PageobjectTest.HomepageTest@9f70c54]" name="contractTest" duration-ms="1" started-at="2019-09-17T02:44:30Z" finished-at="2019-09-17T02:44:30Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:PageobjectTest.SelectTest@234bef66]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:52Z" finished-at="2019-09-17T15:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="testing()[pri:0, instance:PageobjectTest.SelectTest@234bef66]" name="testing" duration-ms="0" started-at="2019-09-17T15:17:52Z" finished-at="2019-09-17T15:17:52Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver
 	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
 	at java.util.Optional.orElseGet(Optional.java:267)
@@ -172,8 +244,8 @@ Driver info: driver.version: BrowserDriver
 	at org.testng.TestNG.runSuites(TestNG.java:1144)
 	at org.testng.TestNG.run(TestNG.java:1115)
 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
@@ -184,12 +256,12 @@ Driver info: driver.version: BrowserDriver
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contractTest -->
-        <test-method status="SKIP" signature="generateReport()[pri:0, instance:PageobjectTest.HomepageTest@9f70c54]" name="generateReport" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:30Z" finished-at="2019-09-17T02:44:30Z">
+        </test-method> <!-- testing -->
+        <test-method status="SKIP" signature="generateReport()[pri:0, instance:PageobjectTest.SelectTest@234bef66]" name="generateReport" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:52Z" finished-at="2019-09-17T15:17:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-      </class> <!-- PageobjectTest.HomepageTest -->
+      </class> <!-- PageobjectTest.SelectTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

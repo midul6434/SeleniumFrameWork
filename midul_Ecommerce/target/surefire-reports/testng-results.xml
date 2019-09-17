@@ -5,39 +5,27 @@
       <![CDATA[Extent Report Directory/Users/mdrahul/IdeaProjects/SeleniumFrameWork/midul_Ecommerce/target/surefire-reports/html]]>
     </line>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="99" started-at="2019-09-17T06:44:29Z" finished-at="2019-09-17T06:44:29Z">
+  <suite name="Surefire suite" duration-ms="107" started-at="2019-09-17T19:17:51Z" finished-at="2019-09-17T19:17:51Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="99" started-at="2019-09-17T06:44:29Z" finished-at="2019-09-17T06:44:29Z">
+    <test name="Surefire test" duration-ms="107" started-at="2019-09-17T19:17:51Z" finished-at="2019-09-17T19:17:51Z">
       <class name="PageObjectTest.WomanDressTest">
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="Anotherther()[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="Anotherther" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Anotherther -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="sweatertest()[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="sweatertest" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="sweatertest()[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="sweatertest" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver
 	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
 	at java.util.Optional.orElseGet(Optional.java:267)
@@ -84,18 +72,30 @@ Driver info: driver.version: BrowserDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sweatertest -->
-        <test-method status="SKIP" signature="womandress()[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="womandress" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="Anotherther()[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="Anotherther" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Anotherther -->
+        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="womandress()[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="womandress" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver
 	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
 	at java.util.Optional.orElseGet(Optional.java:267)
@@ -142,17 +142,17 @@ Driver info: driver.version: BrowserDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- womandress -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="Anotherther()[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="Anotherther" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="Anotherther()[pri:0, instance:PageObjectTest.WomanDressTest@737996a0]" name="Anotherther" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Anotherther -->
       </class> <!-- PageObjectTest.WomanDressTest -->
       <class name="PageObjectTest.NewArrivalTest">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:PageObjectTest.NewArrivalTest@234bef66]" name="extentSetup" is-config="true" duration-ms="93" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:PageObjectTest.NewArrivalTest@234bef66]" name="extentSetup" is-config="true" duration-ms="91" started-at="2019-09-17T15:17:50Z" finished-at="2019-09-17T15:17:51Z">
           <params>
             <param index="0">
               <value>
@@ -166,7 +166,7 @@ Driver info: driver.version: BrowserDriver
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="FAIL" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PageObjectTest.NewArrivalTest@234bef66]" name="setUp" is-config="true" duration-ms="82" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="FAIL" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PageObjectTest.NewArrivalTest@234bef66]" name="setUp" is-config="true" duration-ms="90" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <params>
             <param index="0">
               <value>
@@ -208,13 +208,13 @@ Driver info: driver.version: BrowserDriver
             <message>
               <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver
 	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
 	at java.util.Optional.orElseGet(Optional.java:267)
@@ -261,18 +261,18 @@ Driver info: driver.version: BrowserDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="Arrivalsarch()[pri:0, instance:PageObjectTest.NewArrivalTest@234bef66]" name="Arrivalsarch" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="Arrivalsarch()[pri:0, instance:PageObjectTest.NewArrivalTest@234bef66]" name="Arrivalsarch" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver
 	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
 	at java.util.Optional.orElseGet(Optional.java:267)
@@ -319,36 +319,36 @@ Driver info: driver.version: BrowserDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Arrivalsarch -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:PageObjectTest.NewArrivalTest@234bef66]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:PageObjectTest.NewArrivalTest@234bef66]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="Arrivalitem()[pri:0, instance:PageObjectTest.NewArrivalTest@234bef66]" name="Arrivalitem" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="Arrivalitem()[pri:0, instance:PageObjectTest.NewArrivalTest@234bef66]" name="Arrivalitem" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Arrivalitem -->
-        <test-method status="SKIP" signature="generateReport()[pri:0, instance:PageObjectTest.NewArrivalTest@234bef66]" name="generateReport" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="generateReport()[pri:0, instance:PageObjectTest.NewArrivalTest@234bef66]" name="generateReport" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- PageObjectTest.NewArrivalTest -->
       <class name="PageObjectTest.HomePageTest">
-        <test-method status="SKIP" signature="Element()[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="Element" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="Element()[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="Element" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Element -->
-        <test-method status="SKIP" signature="Anoothertest()[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="Anoothertest" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="Anoothertest()[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="Anoothertest" duration-ms="1" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver
 	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
 	at java.util.Optional.orElseGet(Optional.java:267)
@@ -395,30 +395,30 @@ Driver info: driver.version: BrowserDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Anoothertest -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="startExtent" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="SKIP" signature="sarchtest()[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="sarchtest" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="sarchtest()[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="sarchtest" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver
 	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
 	at java.util.Optional.orElseGet(Optional.java:267)
@@ -465,11 +465,11 @@ Driver info: driver.version: BrowserDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sarchtest -->
-        <test-method status="SKIP" signature="Element()[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="Element" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="Element()[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="Element" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Element -->
-        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-17T02:44:29Z" finished-at="2019-09-17T02:44:29Z">
+        <test-method status="SKIP" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PageObjectTest.HomePageTest@61dc03ce]" name="setUp" is-config="true" duration-ms="0" started-at="2019-09-17T15:17:51Z" finished-at="2019-09-17T15:17:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
