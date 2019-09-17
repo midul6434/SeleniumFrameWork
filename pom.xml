@@ -11,6 +11,7 @@
     <modules>
         <module>generic</module>
         <module>midul_Ecommerce</module>
+        <module>Ecommerce</module>
     </modules>
 
     <dependencyManagement>
@@ -31,7 +32,7 @@
                 <version>2.20.1</version>
             </dependency>
             <dependency>
-                <!--    <groupId>org.apache.poi</groupId>
+                   <groupId>org.apache.poi</groupId>
                     <artifactId>poi</artifactId>
                     <version>3.17</version>
                 </dependency>
@@ -40,8 +41,8 @@
                     <groupId>org.apache.poi</groupId>
                     <artifactId>poi-ooxml</artifactId>
                     <version>3.17</version>
-                </dependency> &ndash;&gt;
-                <dependency>-->
+                </dependency>
+                <dependency>
                 <groupId>com.aventstack</groupId>
                 <artifactId>extentreports</artifactId>
                 <version>3.0.7</version>
@@ -66,8 +67,7 @@
                 <artifactId>google-api-services-sheets</artifactId>
                 <version>v4-rev498-1.23.0</version>
             </dependency>
-
-            <!--   <dependency>
+             <dependency>
                    <groupId>com.google.api-client</groupId>
                    <artifactId>google-api-client</artifactId>
                    <version>1.23.0</version>
@@ -81,7 +81,7 @@
                    <groupId>com.google.apis</groupId>
                    <artifactId>google-api-services-sheets</artifactId>
                    <version>v4-rev498-1.23.0</version>
-               </dependency>&ndash;&gt;-->
+               </dependency>
 
         </dependencies>
     </dependencyManagement>

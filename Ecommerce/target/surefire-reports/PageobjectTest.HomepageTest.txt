@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: PageobjectTest.HomepageTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 0.334 s <<< FAILURE! - in PageobjectTest.HomepageTest
+setUp(PageobjectTest.HomepageTest)  Time elapsed: 0.29 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:865:2064:5e0b:981f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+Driver info: driver.version: BrowserDriver
+

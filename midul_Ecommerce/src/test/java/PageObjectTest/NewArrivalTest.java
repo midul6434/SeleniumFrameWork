@@ -1,11 +1,12 @@
+/*
 package PageObjectTest;
 
 import PageObject.NewArriavle;
-import base.BrowserDriver;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+        import base.BrowserDriver;
+        import org.openqa.selenium.support.PageFactory;
+        import org.testng.Assert;
+        import org.testng.annotations.BeforeMethod;
+        import org.testng.annotations.Test;
 
 public class NewArrivalTest extends BrowserDriver {
     NewArriavle objarrival = null;
@@ -23,4 +24,4 @@ public class NewArrivalTest extends BrowserDriver {
         Assert.assertEquals(actualvaule, expectedvalue);
 
     }
-}
+}*/

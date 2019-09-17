@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="PageObjectTest.WomanDressTest">
+        <methods>
+          <include name="closeOut"/>
+          <include name="generateReport"/>
+          <include name="womandress"/>
+          <include name="extentSetup"/>
+          <include name="Anotherther"/>
+          <include name="sweatertest"/>
+          <include name="afterEachTestMethod"/>
+          <include name="startExtent"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- PageObjectTest.WomanDressTest -->
+      <class name="PageObjectTest.HomePageTest">
+        <methods>
+          <include name="Anoothertest"/>
+          <include name="closeOut"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="sarchtest"/>
+          <include name="afterEachTestMethod"/>
+          <include name="Element"/>
+          <include name="startExtent"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- PageObjectTest.HomePageTest -->
+      <class name="PageObjectTest.NewArrivalTest">
+        <methods>
+          <include name="closeOut"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="Arrivalitem"/>
+          <include name="Arrivalsarch"/>
+          <include name="startExtent"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- PageObjectTest.NewArrivalTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -1,9 +1,9 @@
 <suite name="AliBaba Automation Test" parallel="false" >
     <!--parallel="false"-->
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
-    <parameter name="os" value="mac"/>
+    <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="Mojave"/>
     <parameter name="browserVersion" value="76.0"/>
     <parameter name="browserName" value="chrome"/>
