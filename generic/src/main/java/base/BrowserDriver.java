@@ -91,8 +91,8 @@ public class BrowserDriver {
 
    // public static final String browserstack_username = "=";
   //  public static final String browserstack_automateKey = "NA";
-   public static final String browserstack_username =System.getProperty("envUsername");
-   public static final String browserstack_automateKey =System.getProperty("envAccessKey");
+   public static final String browserstack_username =System.getProperty("bsNmae");
+   public static final String browserstack_automateKey =System.getProperty("bsKey");
 
 
 

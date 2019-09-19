@@ -1,11 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 1, Errors: 0, Skipped: 20, Time elapsed: 0.371 s <<< FAILURE! - in TestSuite
-setUp(PageObjectTest.NewArrivalTest)  Time elapsed: 0.309 s  <<< FAILURE!
+Tests run: 21, Failures: 1, Errors: 0, Skipped: 20, Time elapsed: 25.369 s <<< FAILURE! - in TestSuite
+setUp(PageObjectTest.NewArrivalTest)  Time elapsed: 5.277 s  <<< FAILURE!
 org.openqa.selenium.WebDriverException: 
 Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: MAC
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'Mds-MacBook-Pro.home', ip: 'fe80:0:0:0:8a0:7059:7a96:a3fe%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
+System info: host: 'Mds-MacBook-Pro.local', ip: 'fe80:0:0:0:1402:1ed4:2dff:ae62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_212'
 Driver info: driver.version: BrowserDriver
 

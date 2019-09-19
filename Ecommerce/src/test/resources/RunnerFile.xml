@@ -23,9 +23,8 @@
     <test name = "All the test cases">
         <classes>
 
-            <class name ="PageobjectTest.HomepageTest"/>
-            <class name="PageobjectTest.SelectTest"/>
-            <class name="PageobjectTest.AboutTest"/>
+
+            <class name="PageobjectTest.ReadFromExcelFileTest"/>
 
 
         </classes>
