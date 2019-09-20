@@ -9,13 +9,15 @@
     <parameter name="browserName" value="chrome"/>
    <!-- <parameter name="url" value="https://www.express.com"/>-->
    <!-- <parameter name="url" value="http://www.seleniumframework.com"/>-->
-    <parameter name="url" value="http://automationpractice.com"/>
+    <!--<parameter name="url" value="http://automationpractice.com"/>-->
+    <parameter name="url" value="http://www.seleniumframework.com"/>
 
     <test name = "Ecommerce Home">
         <classes>
 
 
-<class name="PageObjectTest.LogInPageTest"/>
+<class name="PageObjectTest.ReadFromGoogleSheet"/>
+
 
         </classes>
 

@@ -18,6 +18,8 @@ public class HomePage {
     WebElement totalproduct;
     @FindBy(how = How.XPATH,using = "//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a")
     WebElement loging;
+    @FindBy(how = How.XPATH,using = "//*[@id=\"main-nav\"]/li[9]/a")
+    WebElement contractoption;
 
     public String search(){
         Search.sendKeys("pants");
@@ -38,7 +40,10 @@ public LogInPage Signin(){
         loging.click();
         return new LogInPage();
 }
-
+public void Contract(){
+        contractoption.click();
+       // return new LogInPage();
+}
 
 
 
